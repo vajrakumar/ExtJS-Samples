@@ -9,7 +9,9 @@ Ext.define('DataBinding.view.main.Main', {
     extend: 'Ext.grid.Panel',
     xtype: 'app-main',
     requires: [
-        'DataBinding.store.Personnel'
+        'Ext.container.Viewport',
+        'DataBinding.store.Personnel',
+        'DataBinding.view.main.MainController'
     ],
     title: 'DataBinding',
     controller:'main',
